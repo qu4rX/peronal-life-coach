@@ -1,0 +1,148 @@
+#navbar{
+    flex-direction: column;
+    height:95px;
+
+    
+}
+#navbar #logo{
+    /* margin-right: 0px;
+    margin-left: 50px; */
+}
+#navbar ul{
+    margin-right: 50px;
+}
+.btn{
+    /* display: none; */
+    margin-top: 2px;
+    padding: 0px;
+    /* margin-right: 40px; */
+    display: none;
+}
+#navbar .h-logo{
+    margin-top: 20px;
+    
+}
+#navbar ul li{
+    
+    padding: 5px 15px;
+    
+    
+    
+    
+    
+}
+
+#home{
+    height: 240px;
+}
+#home::before{
+    height: 400px;
+}
+#home h1{
+    font-size: 1rem;
+    margin-top: 300px;
+}
+#home p{
+    font-size: 3.5rem;
+}
+#home #secondary{
+    font-size: 15px;
+}
+#home .btn1{
+
+}
+#aboutus{
+    margin-top: 135px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 805px;
+    
+}
+#aboutbox{
+    
+    width: 130%;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    
+    
+}
+#aboutus .box1{
+    height: 190px;
+}
+#aboutus .box1{
+    /* margin-top: 175px; */
+    /* padding: 40px; */
+    height: 340px;
+    width: 100%;
+}
+.boxpara1{
+    display: none;
+}
+.box1 .imgabout::before{
+    width: 100%;
+    opacity: 1;
+    height: 410px;
+}
+#aboutus .box .boxpara{
+   margin-bottom: 10px;
+    
+}
+.box .imgabout{
+    height: 270px;
+    margin-top: 20px;
+}
+.btn1{
+    margin-top: 20px;
+    
+}
+.headingbox{
+    margin-top: 30px;
+}
+#servicebox{
+    flex-direction: column;
+}
+#contacts{
+    overflow: hidden;
+height: 1150px;
+    
+}
+#contact-box{
+    flex-direction: column;
+
+}
+
+#services{
+    height: 1445px;
+    margin-top: 105px;
+    
+}
+#services .howhelp{
+    width: 70%;
+    text-align: center;
+    font-size: 45px;
+}
+#services::before{
+    height: 1645px;
+}
+.box4{
+    text-align: center;
+}
+#contbox{
+    display: block;
+    margin:auto;
+    width: 60%;
+    text-align: center;
+
+}
+#contbox .heading2{
+    margin-top: 50px;
+}
+.para7{
+    margin-top: 50px;
+}
+#formm{
+    margin-top: -20px;
+    width: 80%;
+}

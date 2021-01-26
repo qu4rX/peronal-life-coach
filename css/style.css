@@ -1,0 +1,483 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+/* navigation*/
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    opacity: .75;
+    
+   
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 60px;
+}
+#navbar ul li {
+    padding: 20px;
+    font-size: .9rem;
+    
+    
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    
+    
+}
+
+
+
+#navbar ul li a:hover{
+    
+    color: #468b7f;
+    text-decoration: underline;
+    
+    
+}
+.btn{
+    display: flex;
+    padding-top: 14px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 23px;
+    cursor: pointer;
+
+}
+.btn #btnlog{
+    padding: 6px;
+    color: #468b7f;
+}
+.btn #btnlog:hover{
+    padding: 6px;
+    color: #356b62;
+}
+#logo{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#logo .h-logo{
+    font-weight: bold;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+#logo p{
+    
+    cursor: pointer;
+}
+/* home section  */
+#home{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 600px;
+    
+    
+}
+#home::before{
+    content: "";
+    background: url('../img/person-1245959_1920.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 612px;
+    width: 100%;
+    top: 98px;
+    left: 0;
+    z-index: -1;
+    opacity: .7;
+}
+#home h1{
+    font-size: 1.4rem;
+    margin-top: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+}
+#home p{
+    font-size: 8rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+#home #secondary{
+    font-size: 1.7rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:300;
+}
+#home .btn1{
+    margin: 50px;
+    
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+#home .btn1:hover{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: background-color .5s;
+}
+/* about me */
+#aboutus{
+    display: flex;
+    
+    
+
+}
+#aboutbox{
+   
+    height: 500px;
+    width: 60%;
+    margin-left: 230px;
+}
+#aboutus .box{
+    height: 500px;
+    width: 50%;
+    /* border: 1px solid black; */
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+#aboutus .box1{
+    height: 500px;
+    width: 50%;
+    /* border: 1px solid black; */
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box1 .imgabout::before{
+    content: "";
+    background: url('../img/tuhindp.jpg') no-repeat center center/cover;
+    position:absolute;
+    width: 50%;
+    height: 500px;
+    z-index: -1;
+
+}
+#aboutus .headingbox{
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#aboutus .box .boxpara{
+    margin: 5px 00px;
+    margin-right: 60px;
+    font-weight: lighter;
+}
+#aboutus .box .boxpara{
+    margin-bottom: 30px;
+}
+#aboutus .box .boxpara1{
+    margin: 5px 00px;
+    margin-right: 60px;
+    font-weight: 300;
+}
+.btn1{
+    margin-top: 40px;
+    padding: 10px 16px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+/* services */
+#services{
+    height: 750px;
+    align-items: center;
+    
+    
+    
+}
+#services::before{
+    content: "";
+    background: url('../img/forest-4159500_1920.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 750px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+    
+}
+
+#services .howhelp{
+    
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 17%;
+    width: 19%;
+    padding-top: 90px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+#servicebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#services .box1{
+    
+    border: 7px solid black;
+    height: 270px;
+    width: 230px;
+    margin: 21px 14px;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    
+
+}
+.box1 .tagline{
+    padding-top: 13px;
+}
+.tagline1{
+    padding-top: 12px;
+}
+
+.dash{
+    padding-top: 10px;
+}
+.time{
+    padding-top: 20px;
+}
+.dollar{
+    padding-top: 10px;
+}
+.dollar1{
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+.btn2{
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 8px 40px;
+    background-color: #779dba;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    /* border: none; */
+}
+.btn2:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    transition: .5s;
+}
+#btn3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.btn4{
+    padding: 13px 39px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    outline: none;
+    font-size: .8rem;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn4:hover{
+    background-color: transparent;
+    color: black;
+    transition: .5s;
+}
+/* contacts */
+#contacts{
+    height: 618px;
+    /* margin-top: 150px; */
+    background-color: #94b5d1;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    
+
+}
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contbox{
+    
+    width: 45%;
+    text-align: left;
+    margin-left: 230px;
+}
+.box4{
+    
+    height: 615px;
+    width: 100%;
+    text-align: center;
+}
+.heading2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}.para2{
+    margin-left: 13px;
+}
+.para3{
+    margin-bottom: 30px;
+    margin-left: 13px;
+}
+.para4{
+    margin-left: 13px;
+}
+.para5{
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.para6{
+    margin-bottom: 30px;
+    margin-left: 13px;
+}
+#butnbox{
+    
+}
+.btnn1{
+    margin: 0px 10px;
+    
+    padding: 0px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btnn2{
+    margin: 0px 10px;
+    padding: 0px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btnn3{
+    margin: 0px 10px;
+    padding: 0px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btnn4{
+    margin: 0px 10px;
+    padding: 0px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.para7{
+    margin-top: 140px;
+    margin-bottom: 10px;
+    margin-left: 13px;
+}
+.para8{
+    
+    margin-left: 13px;
+}
+#formm{
+    
+    
+    height: 520px;
+    width: 65%;
+    margin-left: 50px;
+    margin-top: 90px;
+    text-align: left;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 23px;
+    font-weight: lighter;
+    
+    
+}
+.form-group label{
+    margin-bottom: 10px;
+    
+}
+.form-group input{
+    padding: 8px;
+    border: 2px solid black;
+    background-color:#94b5d1 ;
+    outline: none;
+}
+.form-group input:hover{
+    background-color: #7892a9;
+}
+
+
+.form-group textarea{
+    padding: 8px;
+    border: 2px solid black;
+    font-size: 16px;
+    background-color:#94b5d1 ;
+    outline: none;
+
+}
+.form-group textarea:hover{
+    background-color: #7892a9;
+}
+
+#btnnn{
+    text-align: right;
+    margin-top: 30px;
+}
+.btn5{
+    padding: 10px 40px;
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+.btn5:hover{
+    background-color: transparent;
+    color: black;
+    transition: .5s;
+}
+
+
+
+
+
